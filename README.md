@@ -15,12 +15,13 @@ First, you need to install:
 Next, you must replace some files from nuScenes devkit and pkl library, with modified versions that we provide. 
 It is sufficient to go to the installation folder of nuScenes devkit and of pkl, and replace the files we provide in the github (folders nuscenes and pkl).
 
-At this point, if everything is correct, you should be able to run the jupyter notebook. Configurations and steps are explained in the jupyter notebook.
+At this point, if everything is correct, you should be able to run the jupyter notebook. Configurations and steps are explained in the jupyter notebook. There is a detailed discussion and comments inside each jupyter notebook.
 
 There is a specific order to run the jupyter notebook:
 
 1- GOAL1-GOAL2-data collection: this is to collect all the data related to Hypothesis 1 and Hypothesis 2. It may take several days to run, depending on the configuration settings you are using. We recommend to start with very few combinations of parameters.
+
 2- GOAL1-GOAL2-analyze results: this is to extract results from the files that are produced. Essentially, it just reads json files and provides the relevant results.
+
 3- GOAL2_DETECTOR_insight analysis: this is to perform detailed analysis on Hypothesis 2.
 
-   - 
