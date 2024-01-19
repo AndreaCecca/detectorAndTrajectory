@@ -11,7 +11,7 @@ First, you need to install:
 - conda environment, using the yaml file we provide. It creates an environment called openmmlab (then you activate with conda activate openmmlab)
 - nuscenes-devkit https://github.com/nutonomy/nuscenes-devkit (we are using version 1.1.3) and the whole nuScenes dataset (this last one is optional -- see below GOAL1-GOAL2 data collection). 
 - mmdetection3d version 2.x https://mmdetection3d.readthedocs.io/en/latest/
-- Planning KL divergence library, https://pypi.org/project/planning-centric-metrics/ (we are using  0.0.8)
+- Planning KL divergence library,  https://github.com/nv-tlabs/planning-centric-metrics , v0.0.8, with pretrained planner and mask (or you can retrain it if you prefer).
 
 
 Next, you must replace some files from nuScenes devkit and pkl library, with modified versions that we provide. 
