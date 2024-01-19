@@ -9,7 +9,7 @@ Object detection in autonomous driving consists in perceiving and locating insta
 First, you need to install:
 
 - conda environment, using the yaml file we provide. It creates an environment called openmmlab (then you activate with conda activate openmmlab)
-- nuscenes-devkit https://github.com/nutonomy/nuscenes-devkit (we are using version 1.1.3)
+- nuscenes-devkit https://github.com/nutonomy/nuscenes-devkit (we are using version 1.1.3) and the whole nuScenes dataset (this last one is optional -- see below GOAL1-GOAL2 data collection). 
 - mmdetection3d version 2.x https://mmdetection3d.readthedocs.io/en/latest/
 - Planning KL divergence library, https://pypi.org/project/planning-centric-metrics/ (we are using  0.0.8)
 
@@ -21,7 +21,7 @@ At this point, if everything is correct, you should be able to run the jupyter n
 
 There is a specific order to run the jupyter notebooks:
 
-1- GOAL1-GOAL2-data collection: this is to collect all the data related to Hypothesis 1 and Hypothesis 2. It may take several days to run, depending on the configuration settings you are using. We recommend to start with very few combinations of parameters.
+1- GOAL1-GOAL2-data collection: this is to collect all the data related to Hypothesis 1 and Hypothesis 2. It may take several days to run, depending on the configuration settings you are using. We recommend to start with very few combinations of parameters. Note that if you do not want to run the object detectors, you can use our results file. These are obtained from running the mmdetection3d on nuScenes, using the settings and models specified in the jupyter notebook. You can download the results from: https://drive.google.com/drive/folders/1-R_RmjdLCawWTUuPhm2qWliacPMzoomo?usp=sharing . Just unzip there in two folders, named for example REG and FCOS3D, and set the right paths in the jupyter notebook.
 
 2- GOAL1-GOAL2-analyze results: this is to extract results from the files that are produced. Essentially, it just reads json files and provides the relevant results.
 
