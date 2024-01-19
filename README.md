@@ -8,9 +8,11 @@ Object detection in autonomous driving consists in perceiving and locating insta
 
 First, you need to install:
 
+- conda environment, using the yaml file we provide. It creates an environment called openmmlab (then you activate with conda activate openmmlab)
 - nuscenes-devkit https://github.com/nutonomy/nuscenes-devkit (we are using version 1.1.3)
 - mmdetection3d version 2.x https://mmdetection3d.readthedocs.io/en/latest/
 - Planning KL divergence library, https://pypi.org/project/planning-centric-metrics/ (we are using  0.0.8)
+
 
 Next, you must replace some files from nuScenes devkit and pkl library, with modified versions that we provide. 
 It is sufficient to go to the installation folder of nuScenes devkit and of pkl, and replace the files we provide in the github (folders nuscenes and pkl).
