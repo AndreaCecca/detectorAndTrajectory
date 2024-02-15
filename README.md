@@ -19,11 +19,14 @@ It is sufficient to go to the installation folder of nuScenes devkit and of pkl,
 
 At this point, if everything is correct, you should be able to run the jupyter notebooks. Configurations and steps are explained in the jupyter notebook. There is a detailed discussion and comments inside each jupyter notebook.
 
-There is a specific order to run the jupyter notebooks:
+There is a specific order to run the jupyter notebooks (GOAL 1, 2, 3 correspond to Hypothesis 1, 2, 3 in the paper):
 
-1- GOAL1-GOAL2-data collection: this is to collect all the data related to Hypothesis 1 and Hypothesis 2. It may take several days to run, depending on the configuration settings you are using. We recommend to start with very few combinations of parameters. Note that if you do not want to run the object detectors, you can use our results file. These are obtained from running the mmdetection3d on nuScenes, using the settings and models specified in the jupyter notebook. You can download the results from: https://drive.google.com/drive/folders/1-R_RmjdLCawWTUuPhm2qWliacPMzoomo?usp=sharing . Just unzip there in two folders, named for example REG and FCOS3D, and set the right paths in the jupyter notebook.
+1- GOAL1-GOAL2-data collection: this is to collect all the data related to GOAL 1 and GOAL 2. It may take several days to run, depending on the configuration settings you are using. We recommend to start with very few combinations of parameters.
 
 2- GOAL1-GOAL2-analyze results: this is to extract results from the files that are produced. Essentially, it just reads json files and provides the relevant results.
 
-3- GOAL2_DETECTOR_insight analysis: this is to perform detailed analysis on Hypothesis 2.
 
+**Short version.**
+After installing the conda environment and the modified nuscenes devkit library, you can directly use our result files.
+
+You can download the results from: https://drive.google.com/drive/folders/1-R_RmjdLCawWTUuPhm2qWliacPMzoomo?usp=sharing . Just unzip there in two folders, named for example REG and FCOS3D, and set the right paths in the jupyter notebook. Essentially, it will allow you to skip GOAL1-GOAL2 data collection, which is by far the longest jupyter to run.
