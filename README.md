@@ -2,7 +2,7 @@ Repository of the paper:
 
 **A. Ceccarelli, L. Montecchi: Object Criticality for Safer Navigation, submitted.**
 
-Download the paper
+([Download the paper](blob/main/paper%20submitted.pdf))
 
 Object detection in autonomous driving consists in perceiving and locating instances of objects in multi-dimensional data, such as images or lidar scans. Very recently, multiple works are proposing to evaluate object detectors by measuring their ability to detect the objects that are most likely to interfere with the driving task. Detectors are then ranked according to their ability to detect the most relevant objects, rather than the highest number of objects. However there is little evidence so far that the relevance of predicted object may contribute to the safety and reliability improvement  of the driving task. This paper elaborates on a strategy, together with partial results, to deploy and configure object detectors that successfully exploit knowledge on object relevance. We show that, given an object detector, filtering objects based on their relevance, in combination with the traditional confidence threshold, reduces the risk of missing relevant objects, decreases the likelihood of dangerous trajectories, and improves the quality of trajectories in general.
 
