@@ -19,7 +19,7 @@ First, you need to install:
 Next, you must replace some files from nuScenes devkit and pkl library, with modified versions that we provide. 
 It is sufficient to go to the installation folder of nuScenes devkit and of pkl, and replace the files we provide in the github (folders nuscenes and pkl).
 
-At this point, if everything is correct, you should be able to run the jupyter notebooks. Configurations and steps are explained in the jupyter notebook. There is a detailed discussion and comments inside each jupyter notebook.
+At this point, if everything is correct, you should be able to run the jupyter notebooks. Configurations and steps are explained in each  jupyter notebook. There is a detailed discussion and comments inside each of the jupyter notebook, so just follow the instruction there, and let us know if you have problems.
 
 There is a specific order to run the jupyter notebooks (GOAL 1, 2, 3 correspond to the main claims in the paper), but it should be easy:
 first run the "data collection", then the "analyze results".
