@@ -1,6 +1,6 @@
 Repository of the paper:
 
-**A. Ceccarelli, L. Montecchi: Object Criticality for Safer Navigation, submitted.**
+**A. Ceccarelli, L. Montecchi: Better and safer trajectories with predicted object criticality, submitted.**
 
 ([Download the paper](paper submitted.pdf))
 
@@ -33,5 +33,3 @@ After installing the conda environment, the modified nuscenes devkit library, an
 
 You can download the results from: https://drive.google.com/drive/folders/1-R_RmjdLCawWTUuPhm2qWliacPMzoomo?usp=sharing . Just unzip there in two folders, named for example REG and FCOS3D, and set the right paths in the jupyter notebook. Essentially, it will allow you to avoid installing the mmdetection3d object detector, avoid running them on nuscenes, and skip "GOAL1-GOAL2 data collection", which is by far the longest jupyter to run.
 
-**Note**
-Code of GOAL 3 (Hypothesis 3) is still preliminary, as also discussed in the above paper. It will work and the technical steps in the jupyter are well-commented, but you will not find reference to it or further details in the current version of the paper.
